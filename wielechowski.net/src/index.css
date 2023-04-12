@@ -1,0 +1,24 @@
+@font-face {
+  font-family: "Cinzel";
+  src: url("./assets/fonts/Cinzel-VariableFont_wght.ttf") format("truetype");
+  font-display: swap;
+}
+
+@viewport {
+  width: device-width;
+  height: device-height;
+  initial-scale: 1;
+  viewport-fit: cover;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: white;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-display: swap;
+}
